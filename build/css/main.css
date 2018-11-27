@@ -6346,7 +6346,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: #8d81ac;
     text-decoration: none; }
 
-.container-fluid_fork {
+.container_fork {
   background-image: url("../img/fork-app.png");
   background-size: cover;
   padding-top: 108px;
@@ -6416,3 +6416,50 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 36px; }
+
+.github-link {
+  margin-bottom: 60px; }
+
+.section__features {
+  background-color: #f4f4f4;
+  padding-top: 49px; }
+  .section__features_description {
+    color: #8d81ac;
+    font-family: Montserrat,sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 61px; }
+  .section__features_block {
+    margin-bottom: 46px; }
+  .section__features_img-1 {
+    background: url("../img/left-img-1.png");
+    max-width: 111px;
+    max-height: 64px;
+    width: 100%;
+    height: auto; }
+  .section__features_title {
+    color: #323232;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 19px; }
+  .section__features_text {
+    color: #848e97;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 70%; }
+  .section__features_img-2 {
+    background: url("../img/left-img-2.png");
+    max-width: 90px;
+    max-height: 80px; }
+  .section__features_img-3 {
+    background: url("../img/left-img-3.png");
+    max-width: 60px;
+    max-height: 84px; }
+  .section__features_img-4 {
+    background: url("../img/left-img-4.png");
+    max-width: 71px;
+    max-height: 71px; }
+  .section__features_last {
+    margin-bottom: 57px; }
