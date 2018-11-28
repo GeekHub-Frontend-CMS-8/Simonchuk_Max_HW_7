@@ -11,9 +11,12 @@
   display: inline-block
   box-sizing: border-box
   justify-content: center
-  padding: 12px 66px
+  padding: 6px 33px
   max-width: 100%
   margin-bottom: 19px
+
+  @media screen and (min-width: 768px)
+    padding: 12px 66px
 .title-revolutionary
   color: #848e97
   font-family: Montserrat,sans-serif
@@ -23,15 +26,19 @@
 .title-main
   color: #635c73
   font-family: Montserrat,sans-serif
-  font-size: 48px
+  font-size: 54px
   font-weight: 700
   margin-bottom: 56px
+
+  @media screen and (max-width: 768px)
+    font-size: 28px
 .text-revolutionary
   opacity: 0.8
   color: #323232
   font-family: "Source Sans Pro",sans-serif
-  font-size: 16px
+  font-size: 21px
   font-weight: 400
   margin-bottom: 36px
+
 .github-link
   margin-bottom: 60px

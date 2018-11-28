@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6324,19 +6325,30 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: Montserrat,sans-serif;
   font-size: 17px;
   font-weight: 700;
-  padding: 8px 36px; }
+  padding: 8px 36px;
+  margin-left: 35px; }
+  .btn-header:hover {
+    background-color: #4e555b;
+    color: #ffffff;
+    text-decoration: none; }
+
+.nav-link {
+  color: #635c73;
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  font-weight: 700; }
 
 .logo-text {
   color: #333333;
-  font-family: Montserrat;
+  font-family: Montserrat,sans-serif;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase; }
   .logo-text_io {
     color: #8d81ac;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 24px;
-    font-weight: 400; }
+    font-weight: 700; }
 
 .social-nav-icon {
   padding: 0 20px 20px;
@@ -6346,15 +6358,15 @@ a.text-dark:hover, a.text-dark:focus {
     color: #8d81ac;
     text-decoration: none; }
 
-.container_fork {
-  background-image: url("../img/fork-app.png");
-  background-size: cover;
+.section_fork {
+  background: url("../img/fork-app.png") no-repeat center/cover;
   padding-top: 108px;
   padding-bottom: 538px;
-  height: 100%;
-  max-width: 100%;
-  background-attachment: relative;
-  background-position: center center; }
+  max-width: 100%; }
+  @media screen and (max-width: 768px) {
+    .section_fork {
+      max-width: 480px;
+      height: 760px; } }
 
 .title-fork-1 {
   color: #d4d4d4;
@@ -6365,15 +6377,17 @@ a.text-dark:hover, a.text-dark:focus {
 
 .title-fork-2 {
   color: #8d81ac;
-  font-family: Lato;
+  font-family: Lato,sans-serif;
   font-size: 30px;
   font-weight: 400;
-  width: 100%;
   margin-bottom: 18px; }
+  @media screen and (max-width: 768px) {
+    .title-fork-2 {
+      font-size: 24px; } }
 
 .text-fork {
   color: #848e97;
-  font-family: Montserrat;
+  font-family: Montserrat,sans-serif;
   font-size: 16px;
   font-weight: 400; }
 
@@ -6391,9 +6405,12 @@ a.text-dark:hover, a.text-dark:focus {
   display: inline-block;
   box-sizing: border-box;
   justify-content: center;
-  padding: 12px 66px;
+  padding: 6px 33px;
   max-width: 100%;
   margin-bottom: 19px; }
+  @media screen and (min-width: 768px) {
+    .btn-outline-secondary {
+      padding: 12px 66px; } }
 
 .title-revolutionary {
   color: #848e97;
@@ -6405,15 +6422,18 @@ a.text-dark:hover, a.text-dark:focus {
 .title-main {
   color: #635c73;
   font-family: Montserrat,sans-serif;
-  font-size: 48px;
+  font-size: 54px;
   font-weight: 700;
   margin-bottom: 56px; }
+  @media screen and (max-width: 768px) {
+    .title-main {
+      font-size: 28px; } }
 
 .text-revolutionary {
   opacity: 0.8;
   color: #323232;
   font-family: "Source Sans Pro",sans-serif;
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 400;
   margin-bottom: 36px; }
 
@@ -6422,44 +6442,139 @@ a.text-dark:hover, a.text-dark:focus {
 
 .section__features {
   background-color: #f4f4f4;
-  padding-top: 49px; }
+  padding-top: 102px; }
   .section__features_description {
     color: #8d81ac;
     font-family: Montserrat,sans-serif;
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 700;
-    margin-bottom: 61px; }
+    margin-bottom: 39px;
+    text-align: center; }
+    @media screen and (max-width: 768px) {
+      .section__features_description {
+        font-size: 30px;
+        max-width: 330px; } }
   .section__features_block {
     margin-bottom: 46px; }
   .section__features_img-1 {
     background: url("../img/left-img-1.png");
-    max-width: 111px;
-    max-height: 64px;
-    width: 100%;
-    height: auto; }
+    width: 111px;
+    height: 64px; }
   .section__features_title {
     color: #323232;
     font-family: "Montserrat",sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 19px; }
+    @media screen and (max-width: 768px) {
+      .section__features_title {
+        font-size: 10px; } }
   .section__features_text {
     color: #848e97;
     font-family: "Source Sans Pro",sans-serif;
     font-size: 14px;
-    font-weight: 400;
-    width: 70%; }
+    font-weight: 400; }
+    @media screen and (max-width: 768px) {
+      .section__features_text {
+        font-size: 8px; } }
   .section__features_img-2 {
     background: url("../img/left-img-2.png");
     max-width: 90px;
-    max-height: 80px; }
+    height: 80px; }
   .section__features_img-3 {
     background: url("../img/left-img-3.png");
     max-width: 60px;
-    max-height: 84px; }
+    height: 84px; }
   .section__features_img-4 {
     background: url("../img/left-img-4.png");
     max-width: 71px;
-    max-height: 71px; }
+    height: 71px; }
   .section__features_last {
     margin-bottom: 57px; }
+  .section__features_picture {
+    background: url("../img/features-picture.png");
+    position: relative;
+    max-width: 1140px;
+    height: 580px;
+    opacity: 0.95; }
+
+.section__social {
+  padding-top: 87px; }
+  .section__social_img {
+    background: url("../img/social-img.png");
+    max-width: 85px;
+    height: 85px; }
+  .section__social_block {
+    max-width: 400px;
+    margin: 0 auto 39px; }
+  .section__social_title {
+    color: #474747;
+    font-family: Montserrat,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0 0 23px; }
+  .section__social_link {
+    color: #8d81ac;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 23px; }
+  .section__social_comments-block {
+    max-width: 720px;
+    margin: 0 auto; }
+  .section__social_text {
+    color: #333333;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 23px; }
+  .section__social_text-time {
+    color: #848e97;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 56px; }
+  .section__social_github-button {
+    border: 1px solid #f3f3f3;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 12px 102px;
+    background-color: #f3f3f3;
+    color: #1b1e21;
+    margin-bottom: 18px;
+    margin-left: 40px; }
+  .section__social_twitter-button {
+    border: 1px solid #26a6d1;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 12px 102px;
+    background-color: #26a6d1;
+    color: #d4d4d4;
+    margin-bottom: 18px;
+    margin-left: 40px; }
+  .section__social_facebook-button {
+    border: 1px solid #3b5998;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 12px 97px;
+    background-color: #3b5998;
+    color: #d4d4d4;
+    margin-bottom: 18px;
+    margin-left: 40px; }
+  .section__social_followers {
+    color: #848e97;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center; }
+    @media screen and (max-width: 768px) {
+      .section__social_followers {
+        display: block;
+        padding-left: 33%; } }
+  .section__social_link-block {
+    display: flex;
+    justify-content: center; }
+    @media screen and (max-width: 768px) {
+      .section__social_link-block {
+        display: block;
+        padding-left: 13%; } }
