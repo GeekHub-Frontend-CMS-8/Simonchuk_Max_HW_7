@@ -1,5 +1,5 @@
 .form-control
-  max-width: 335px
+  max-width: 345px
   border-radius: 25px
   border: 1px solid #ffffff
 .section__subscription
@@ -11,6 +11,13 @@
     font-family: Montserrat,sans-serif
     font-size: 30px
     font-weight: 700
+    @media screen and (max-width: 992px)
+      font-size: 30px
+      text-align: center
+      margin-bottom: 30px
+  &_block
+    display: flex
+    align-self: center
   &_submit
     margin-left: 20px
     padding: 16px 28px 15px 36px

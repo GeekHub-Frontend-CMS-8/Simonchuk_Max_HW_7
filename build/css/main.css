@@ -6439,6 +6439,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .github-link {
   margin-bottom: 60px; }
+  @media screen and (max-width: 768px) {
+    .github-link {
+      margin-left: 36%; } }
+  @media screen and (max-width: 440px) {
+    .github-link {
+      margin-left: 16%; } }
 
 .section__features {
   background-color: #f4f4f4;
@@ -6682,7 +6688,10 @@ a.text-dark:hover, a.text-dark:focus {
     opacity: 1; }
     @media screen and (max-width: 768px) {
       .section__pricing_block-subtitle {
-        margin-left: 19%; } }
+        margin-left: 21%; } }
+    @media screen and (max-width: 430px) {
+      .section__pricing_block-subtitle {
+        margin-left: 7%; } }
   .section__pricing_block-subtitle-third {
     max-width: 299px;
     height: 111px;
@@ -6692,12 +6701,18 @@ a.text-dark:hover, a.text-dark:focus {
       .section__pricing_block-subtitle-third {
         margin-left: 15%;
         margin-top: 55px; } }
+    @media screen and (max-width: 430px) {
+      .section__pricing_block-subtitle-third {
+        margin-left: 4%; } }
   .section__pricing_subtitle {
     color: #ffffff;
     font-family: Montserrat,sans-serif;
     font-size: 24px;
     font-weight: 400;
     padding-top: 45px; }
+    @media screen and (max-width: 992px) {
+      .section__pricing_subtitle {
+        font-size: 16px; } }
   .section__pricing_block-description {
     max-width: 257px;
     height: 370px;
@@ -6707,8 +6722,11 @@ a.text-dark:hover, a.text-dark:focus {
     margin-bottom: 133px; }
     @media screen and (max-width: 768px) {
       .section__pricing_block-description {
-        margin-left: 19%;
+        margin-left: 21%;
         margin-bottom: 25px; } }
+    @media screen and (max-width: 430px) {
+      .section__pricing_block-description {
+        margin-left: 7%; } }
   .section__pricing_block-description-third {
     max-width: 299px;
     height: 449px;
@@ -6719,6 +6737,9 @@ a.text-dark:hover, a.text-dark:focus {
       .section__pricing_block-description-third {
         margin-left: 15%;
         margin-bottom: 25px; } }
+    @media screen and (max-width: 430px) {
+      .section__pricing_block-description-third {
+        margin-left: 4%; } }
   .section__pricing_title-1 {
     color: #ffffff;
     font-family: Montserrat,sans-serif;
@@ -6761,6 +6782,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: #ffffff;
     padding: 13px 38px;
     margin: 0 auto; }
+    @media screen and (max-width: 992px) {
+      .section__pricing_link {
+        padding: 10px 28px; } }
     .section__pricing_link:hover {
       background-color: #4b3b4e;
       text-decoration: none;
@@ -6774,6 +6798,9 @@ a.text-dark:hover, a.text-dark:focus {
     border-radius: 20px;
     color: #ffffff;
     padding: 13px 38px; }
+    @media screen and (max-width: 992px) {
+      .section__pricing_link-third {
+        padding: 10px 28px; } }
     .section__pricing_link-third:hover {
       background-color: #4b3b4e;
       text-decoration: none;
@@ -6789,7 +6816,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: -60px; }
 
 .form-control {
-  max-width: 335px;
+  max-width: 345px;
   border-radius: 25px;
   border: 1px solid #ffffff; }
 
@@ -6802,6 +6829,14 @@ a.text-dark:hover, a.text-dark:focus {
     font-family: Montserrat,sans-serif;
     font-size: 30px;
     font-weight: 700; }
+    @media screen and (max-width: 992px) {
+      .section__subscription_title {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px; } }
+  .section__subscription_block {
+    display: flex;
+    align-self: center; }
   .section__subscription_submit {
     margin-left: 20px;
     padding: 16px 28px 15px 36px;
@@ -6815,3 +6850,152 @@ a.text-dark:hover, a.text-dark:focus {
       background-color: #4b3b4e;
       text-decoration: none;
       color: #ffffff; }
+
+.section__information {
+  padding-top: 79px;
+  padding-bottom: 57px; }
+  .section__information_title-big-1 {
+    color: #d3d1da;
+    font-family: Montserrat,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 58px; }
+  .section__information_title-medium-1 {
+    color: #323232;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 20px; }
+  .section__information_text-1 {
+    color: #848e97;
+    font-family: Montserrat,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 30px; }
+  .section__information_link-1, .section__information_link-2, .section__information_link-3 {
+    padding: 12px 20px 12px 24px;
+    background-color: #f4f4f4;
+    color: #8d81ac;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 6px; }
+    @media screen and (max-width: 768px) {
+      .section__information_link-1, .section__information_link-2, .section__information_link-3 {
+        margin-bottom: 58px; } }
+    .section__information_link-1:hover, .section__information_link-2:hover, .section__information_link-3:hover {
+      text-decoration: none;
+      color: #f4f4f4;
+      background-color: #4e555b; }
+  .section__information_title-big-2 {
+    color: #d3d1da;
+    font-family: Montserrat,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 58px; }
+  .section__information_title-medium-2 {
+    color: #8d81ac;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 22px; }
+  .section__information_text-2 {
+    color: #848e97;
+    font-family: Montserrat,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 22px; }
+  .section__information_title-big-3 {
+    color: #d3d1da;
+    font-family: Montserrat,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 58px; }
+  .section__information_title-medium-3 {
+    color: #8d81ac;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 14px; }
+  .section__information_text-3 {
+    font-family: Montserrat,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #848e97;
+    margin-bottom: 32px; }
+
+.section__footer {
+  padding-top: 85px;
+  padding-bottom: 90px;
+  background-color: #f7f7f7; }
+  .section__footer_text-1 {
+    color: #848e97;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 35px;
+    max-width: 250px; }
+    @media screen and (max-width: 768px) {
+      .section__footer_text-1 {
+        padding-bottom: 30px; } }
+  .section__footer_title-2 {
+    color: #323232;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px; }
+  .section__footer_text-2 {
+    color: #8d81ac;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    max-width: 110px; }
+    @media screen and (max-width: 768px) {
+      .section__footer_text-2 {
+        padding-bottom: 30px; } }
+  .section__footer_title-3 {
+    color: #3f3f3f;
+    font-family: Montserrat,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 17px; }
+  .section__footer_text-3 {
+    color: #848e97;
+    font-family: Montserrat,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 28px; }
+    @media screen and (max-width: 768px) {
+      .section__footer_text-3 {
+        margin-bottom: 15px; } }
+  .section__footer_title-sm {
+    color: #323232;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 700; }
+  .section__footer_text-bt {
+    color: #848e97;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 400; }
+    @media screen and (max-width: 768px) {
+      .section__footer_text-bt {
+        padding-bottom: 30px; } }
+  .section__footer_title-4 {
+    color: #323232;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 28px; }
+  .section__footer_text-4 {
+    color: #848e97;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px; }
+    @media screen and (max-width: 768px) {
+      .section__footer_text-4 {
+        padding-bottom: 30px; } }
