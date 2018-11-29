@@ -6664,3 +6664,154 @@ a.text-dark:hover, a.text-dark:focus {
     background-color: #c7c7c7;
     opacity: 0.2;
     margin: 0 auto; }
+
+.section__pricing {
+  background: #4b3b4e url("../img/bg-pricing.png") no-repeat center/cover;
+  padding-top: 29px;
+  padding-bottom: 77px; }
+  .section__pricing_title {
+    color: #d4d4d4;
+    font-family: Montserrat,sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 120px; }
+  .section__pricing_block-subtitle {
+    max-width: 257px;
+    height: 97px;
+    background-color: rgba(255, 255, 255, 0.06);
+    opacity: 1; }
+    @media screen and (max-width: 768px) {
+      .section__pricing_block-subtitle {
+        margin-left: 19%; } }
+  .section__pricing_block-subtitle-third {
+    max-width: 299px;
+    height: 111px;
+    background-color: rgba(0, 0, 0, 0.08);
+    opacity: 1; }
+    @media screen and (max-width: 768px) {
+      .section__pricing_block-subtitle-third {
+        margin-left: 15%;
+        margin-top: 55px; } }
+  .section__pricing_subtitle {
+    color: #ffffff;
+    font-family: Montserrat,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 45px; }
+  .section__pricing_block-description {
+    max-width: 257px;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 0.11);
+    opacity: 1;
+    padding-top: 36px;
+    margin-bottom: 133px; }
+    @media screen and (max-width: 768px) {
+      .section__pricing_block-description {
+        margin-left: 19%;
+        margin-bottom: 25px; } }
+  .section__pricing_block-description-third {
+    max-width: 299px;
+    height: 449px;
+    background-color: rgba(0, 0, 0, 0.08);
+    opacity: 0.6;
+    padding-top: 36px; }
+    @media screen and (max-width: 768px) {
+      .section__pricing_block-description-third {
+        margin-left: 15%;
+        margin-bottom: 25px; } }
+  .section__pricing_title-1 {
+    color: #ffffff;
+    font-family: Montserrat,sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 26px; }
+  .section__pricing_text {
+    color: #ffffff;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 38px; }
+  .section__pricing_border {
+    max-width: 60px;
+    height: 5px;
+    background-color: #8d81ac;
+    margin: 0 auto 31px; }
+  .section__pricing_title-2-first {
+    color: #ffffff;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 67px; }
+  .section__pricing_title-2-second, .section__pricing_title-2-fourth {
+    color: #ffffff;
+    font-family: Montserrat,sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 50px; }
+  .section__pricing_title-2-third {
+    color: #ffffff;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 67px; }
+  .section__pricing_link {
+    background-color: rgba(255, 255, 255, 0.11);
+    opacity: 1;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 13px 38px;
+    margin: 0 auto; }
+    .section__pricing_link:hover {
+      background-color: #4b3b4e;
+      text-decoration: none;
+      color: #f7f7f7; }
+  .section__pricing_link-third {
+    background-color: rgba(255, 255, 255, 0.11);
+    opacity: 1;
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 13px 38px; }
+    .section__pricing_link-third:hover {
+      background-color: #4b3b4e;
+      text-decoration: none;
+      color: #f7f7f7; }
+  .section__pricing_lobertis {
+    opacity: 0.8;
+    color: #a291a5;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    font-weight: 400; }
+
+.third_margin {
+  margin-top: -60px; }
+
+.form-control {
+  max-width: 335px;
+  border-radius: 25px;
+  border: 1px solid #ffffff; }
+
+.section__subscription {
+  background-color: #f4f4f4;
+  padding-top: 46px;
+  padding-bottom: 46px; }
+  .section__subscription_title {
+    color: #635c73;
+    font-family: Montserrat,sans-serif;
+    font-size: 30px;
+    font-weight: 700; }
+  .section__subscription_submit {
+    margin-left: 20px;
+    padding: 16px 28px 15px 36px;
+    background-color: #8d81ac;
+    border-radius: 30px;
+    color: #ffffff;
+    font-family: Montserrat,sans-serif;
+    font-size: 13px;
+    font-weight: 400; }
+    .section__subscription_submit:hover {
+      background-color: #4b3b4e;
+      text-decoration: none;
+      color: #ffffff; }
